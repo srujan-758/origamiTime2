@@ -1,0 +1,37 @@
+.heads{
+    background-image: url("images/background.jpg") ;     
+}
+
+.header{
+  font: italic small-caps bold 12px/30px Georgia, serif;
+  font-weight: bold;
+  color:darkred;
+ text-decoration: underline overline;
+ text-decoration-style: wavy;
+  display: flex; 
+   justify-content: center;
+   
+}
+
+.header2{
+    font:  15px Arial, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+   text-decoration: underline ;
+   text-decoration-style: dashed;  
+}
+
+.header3{
+    font:  15px Arial, sans-serif;
+    font-weight: bold;
+    color: darkgoldenrod;
+   text-decoration: overline ;
+   text-decoration-style: solid;  
+}
+
+.grid{
+    background-image: url("images/ba.jpg") ;  
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
